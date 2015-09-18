@@ -144,7 +144,7 @@ module Blogit
         blogit_warn "You've set config.disqus_shortname in your blogit config file but " \
          "config.include_comments is not set to :disqus"
       end
-      @disqus_shortname = shortname
+      config.disqus_shortname = shortname
     end
 
     # The title to use in the index.rss template. (default: [My Application] Blog
